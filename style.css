@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*--- Nav-bar1 style ---*/
+
+.nav-bar1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar1 li {
+  float: left;
+}
+
+.nav-bar1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar1 li a:hover {
+  background-color: #58bf8e;
+}
+
+li a .active {
+  color: #58bf8e;
+}
+
+/*---Nav-bar2 style ---*/
+
+.nav-bar2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #58bf8e;
+}
+
+.nav-bar2 li {
+  float: left;
+}
+
+.nav-bar2 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar2 ul li input {
+  border: none;
+  border-radius: 3px;
+  margin-top: 9px;
+}
+
+.app ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app ul li {
+  display: block;
+  word-spacing: 50px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+table td {
+  border: 1px solid #58bf8e;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0%;
+}
+
+button {
+  background-color: #58bf8e;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
